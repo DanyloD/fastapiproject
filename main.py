@@ -22,6 +22,7 @@ class ItemBase(BaseModel):
 
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login")
+name = "Danylo"
 
 
 def get_user(db, username: str):
